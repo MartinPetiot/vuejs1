@@ -10,5 +10,6 @@ new Vue({
         input: "Coucou",
         h2 : "Salopes",
         checked : false,
+        checked1 : true,
     }
 })

@@ -15,12 +15,14 @@
 </head>
 <body>
 <div id="limit">
-    <input v-model="input" placeholder="modifiez-moi">
+    <input v-model="input" >
     <h1 :class="{red:checked}">Le message est : {{ input }}</h1>
 <input v-model="input" type="text" >
     <button v-on:click="h2=input" type="button">cliquez bande de</button>
     <h2 :class="{red:checked}">{{ h2 }}</h2>
     <input type="checkbox" @click="checked= !checked">
+    <img v-show="checked1" src="https://cdn1.dotesports.com/wp-content/uploads/2019/11/30031838/Bonds_of_Madness_Loading_Screen_16x9.png" >
+    <input type="checkbox" @click="checked1= !checked1">
 
 
 </div>
